@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>HelpOn</title>
 </head>
-<body class="bg-[#F3F8FD]">
-    <header class="h-2/10 py-3 px-6 bg-white flex items-center justify-between shadow-md">
+<body class="bg-[#F3F8FD] h-full grid grid-rows-[auto_1fr_auto]">
+    <header class="h-2/10 py-3 px-6 xl:px-[10vw] bg-white flex items-center justify-between shadow-md ">
         <a href="./index.html" class="flex items-center justify-center gap-2 cursor-pointer logotipo">
             <div class="w-12 h-12 p-2 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-white logotipo-hover:scale-108 transition-all duration-300 lucide lucide-circle-question-mark-icon lucide-circle-question-mark"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></div>
             <div>
@@ -23,7 +23,7 @@
             </ul>
         </nav>
     </header>
-    <main class="px-4 mt-10">
+    <main class="px-4 mt-10 xl:px-[10vw]">
         <section class="h-[20vh] pt-10 flex flex-col items-center justify-center gap-6">
             <h1 class=" px-3 sm:px-0 text-center text-4xl sm:text-6xl font-bold">Como podemos <span class="font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">ajudar você?</span></h1>
             <h2 class="text-zinc-500 px-3 sm:px-0 text-center">Encontre respostas rápidas e guias passo a passo para resolver suas dúvidas</h2>
@@ -33,25 +33,25 @@
             <h2 class="text-2xl font-bold mb-5">Categorias de Ajuda</h2>
 
             <section class="flex flex-col gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                <a href="" class="bg-white p-4 flex flex-col gap-3 rounded-md shadow">
-                    <div class="w-14 p-2.5 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-blue-700 to-blue-800"><img src="./img/unnamed.png" alt="Asseponto logo"></div>
+                <a href="./pages/opcoesArtigo/asseponto/opcoesAsseponto.html" class="group h-50 p-6 flex flex-col justify-center gap-3 rounded-md shadow bg-white outline outline-2 outline-transparent hover:outline-blue-600 hover:shadow-xl transition-all duration-200">
+                    <div class="w-14 p-2.5 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-blue-700 to-blue-800 group-hover:scale-[1.1] transition-all duration-300"><img src="./img/unnamed.png" alt="Asseponto logo"></div>
                     <h3 class="font-bold text-md">Asseponto</h3>
                     <p class="text-sm text-zinc-500">Dicas de uso e boas práticas.</p>
                 </a>
-                <div class="bg-white p-4 flex flex-col gap-3 rounded-md shadow">
-                    <div class="w-14 h-14 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-green-500 to-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" lucide lucide-dollar-sign-icon lucide-dollar-sign"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+                <a href="" class="group bg-white p-4 p-6 flex flex-col justify-center gap-3 rounded-md shadow outline outline-2 outline-transparent hover:outline-blue-600 hover:shadow-xl transition-all duration-200">
+                    <div class="w-14 h-14 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-green-500 to-green-600 group-hover:scale-[1.1] transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" lucide lucide-dollar-sign-icon lucide-dollar-sign"><line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
                     <h3 class="font-bold text-md">Pagamentos</h3>
                     <p class="text-sm text-zinc-500">Informações sobre pagamentos, recebíveis e reembolso.</p>
-                </div>
-                <div class="bg-white p-4 flex flex-col gap-3 rounded-md shadow">
-                    <div class="w-14 h-14 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-amber-500 to-amber-600"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-off-icon lucide-calendar-off"><path d="M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18"/><path d="M21 15.5V6a2 2 0 0 0-2-2H9.5"/><path d="M16 2v4"/><path d="M3 10h7"/><path d="M21 10h-5.5"/><path d="m2 2 20 20"/></svg></div>
+                </a>
+                <a href="" class="group bg-white p-4 p-6 flex flex-col justify-center gap-3 rounded-md shadow outline outline-2 outline-transparent hover:outline-blue-600 hover:shadow-xl transition-all duration-200">
+                    <div class="w-14 h-14 flex items-center justify-center rounded-xl text-white bg-gradient-to-br from-amber-500 to-amber-600 group-hover:scale-[1.1] transition-all duration-300"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-off-icon lucide-calendar-off"><path d="M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18"/><path d="M21 15.5V6a2 2 0 0 0-2-2H9.5"/><path d="M16 2v4"/><path d="M3 10h7"/><path d="M21 10h-5.5"/><path d="m2 2 20 20"/></svg></div>
                     <h3 class="font-bold text-md">Faltas e Ausências</h3>
                     <p class="text-sm text-zinc-500">Procedimentos para comunicar faltas e apresentar atestados.</p>
-                </div>
+                </a>
             </section>
         </section>
     </main>
-    <footer class="flex flex-col text-center gap-4 py-5 bg-white shadow mt-10 static bottom-0 left-0 right-0">
+    <footer class="flex flex-col text-center gap-4 py-5 bg-white shadow mt-10 xl:px-[10vw]">
             <span class="text-sm text-zinc-700">&copy; Helpon - Central de Dúvidas</span>
             <span class="text-sm text-zinc-700"> Suporte para Promotores</span>
     </footer>
