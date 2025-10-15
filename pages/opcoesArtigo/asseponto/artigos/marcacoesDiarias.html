@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>HelpOn - Asseponto</title>
 </head>
-<body>
-    
+<body class="bg-[#F3F8FD] h-full grid grid-rows-[auto_1fr_auto]">
+    <header class="h-2/10 py-3 px-6 xl:px-[10vw] bg-white flex items-center justify-between shadow-md ">
+        <a href="../../../../index.html" class="flex items-center justify-center gap-2 cursor-pointer logotipo">
+            <div class="w-12 h-12 p-2 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 text-white logotipo-hover:scale-108 transition-all duration-300 lucide lucide-circle-question-mark-icon lucide-circle-question-mark"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></div>
+            <div>
+                <span class="font-bold text-3xl bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">HelpOn</span>
+                <p class="text-sm text-zinc-500">Central de Dúvidas</p>
+            </div>
+        </a>
+        <nav class="w-2/10">
+            <ul class="w-full h-full flex items-center gap-4">
+                <li ><a href="../../../../index.html" class="w-full h-full p-3 rounded flex items-center gap-2 text-zinc-500 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span class="sm:inline hidden">Início</span></a></li>
+                <li><a href="#" class="w-full h-full p-3 rounded sm: flex items-center gap-2 text-zinc-500 hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-copy-icon lucide-book-copy"><path d="M5 7a2 2 0 0 0-2 2v11"/><path d="M5.803 18H5a2 2 0 0 0 0 4h9.5a.5.5 0 0 0 .5-.5V21"/><path d="M9 15V4a2 2 0 0 1 2-2h9.5a.5.5 0 0 1 .5.5v14a.5.5 0 0 1-.5.5H11a2 2 0 0 1 0-4h10"/></svg> <span class="sm:inline hidden">Todos os artigos</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mt-10 p-2 xl:px-[10vw] gap-8 flex flex-col max-w-7xl mx-auto">
+        <a href="../opcoesAsseponto.html" class="flex gap-2 items-center ml-4"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left-from-line-icon lucide-arrow-left-from-line"><path d="m9 6-6 6 6 6"/><path d="M3 12h14"/><path d="M21 19V5"/></svg> voltar</a>
+        <section class="bg-white p-8 shadow rounded-md">
+            <h1 class="font-bold text-3xl mb-2">Marcações diárias (4 registros obrigatórios)</h1>
+            <span class="flex gap-1.5 items-center text-md text-zinc-500 mb-10"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock9-icon lucide-clock-9"><path d="M12 6v6H8"/><circle cx="12" cy="12" r="10"/></svg> 08 out 2025</span>
+            <h2 class="font-bold text-2xl">Passo a Passo</h2>
+            <section class="grid grid-rows-4 mt-4 gap-3">
+                <div class="bg-[#F3F8FD] rounded-md shadow border-l-4 border-blue-600 p-4">
+                    <div class="flex items-center gap-5 font-semibold">
+                        <span class="bg-blue-600 text-white font-bold p-2 px-4 rounded-[100%]">1</span>
+                        <h3>Check-in: Entrada na loja</h3>
+                    </div>
+                    <p class="ml-14 text-zinc-700">Ao chegar na loja, faça imediatamente o registro do seu check-in no Asseponto. Esta é a primeira marcação obrigatória do dia.</p>
+                </div>
+                <div class="bg-[#F3F8FD] rounded-md shadow border-l-4 border-blue-600 p-4">
+                    <div class="flex items-center gap-5 font-semibold">
+                        <span class="bg-blue-600 text-white font-bold p-2 px-4 rounded-[100%]">2</span>
+                        <h3>Retorno do almoço</h3>
+                    </div>
+                    <p class="ml-14 text-zinc-700">Antes de sair para o horário de almoço, registre a saída no sistema. Esta é a segunda marcação obrigatória.</p>
+                </div>
+                <div class="bg-[#F3F8FD] rounded-md shadow border-l-4 border-blue-600 p-4">
+                    <div class="flex items-center gap-5 font-semibold">
+                        <span class="bg-blue-600 text-white font-bold p-2 px-4 rounded-[100%]">3</span>
+                        <h3>Check-in: Entrada na loja</h3>
+                    </div>
+                    <p class="ml-14 text-zinc-700">Ao retornar do almoço, faça o registro de entrada. Esta é a terceira marcação obrigatória do dia.</p>
+                </div>
+                <div class="bg-[#F3F8FD] rounded-md shadow border-l-4 border-blue-600 p-4">
+                    <div class="flex items-center gap-5 font-semibold">
+                        <span class="bg-blue-600 text-white font-bold p-2 px-4 rounded-[100%]">4</span>
+                        <h3>Check-out: Saída da loja</h3>
+                    </div>
+                    <p class="ml-14 text-zinc-700">Ao finalizar o expediente e sair da loja, registre o check-out. Esta é a quarta e última marcação obrigatória do dia.</p>
+                </div>
+            </section>
+            <h3 class="font-bold mt-8">Considerações importantes!</h3>
+            <ul class="list-disc">
+                <li class="ml-14 text-zinc-700">As marcações devem ser realizadas <span class="font-medium">somente dentro da loja</span>, exceto no horário de almoço.</li>
+                <li class="ml-14 text-zinc-700">A <span class="font-medium">folha de ponto fecha no dia 20</span> e <span class="font-medium">reinicia no dia 21</span> de cada mês.</li>
+                <li class="ml-14 text-zinc-700">É <span class="font-medium">responsabilidade do colaborador</span> verificar o <span class="font-medium">espelho de ponto</span> e anexar <span class="font-medium">atestados ou declarações</span> quando necessário.</li>
+            </ul>
+            <p class="mt-7 text-zinc-700">O Asseponto é o sistema de registro de ponto eletrônico. É fundamental seguir corretamente os procedimentos de marcação para garantir o registro adequado da sua jornada de trabalho.</p>
+        </section>
+    </main>
+     <footer class="flex flex-col text-center gap-4 py-5 bg-white shadow mt-10 xl:px-[10vw]">
+            <span class="text-sm text-zinc-700">&copy; Helpon - Central de Dúvidas</span>
+            <span class="text-sm text-zinc-700"> Suporte para Promotores</span>
+    </footer>
 </body>
 </html>
