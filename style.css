@@ -3,18 +3,11 @@
 
 
 :root {
-  --bg-chanceler: radial-gradient(circle, #F5F0E1, #D8C6A5);
-  --bg-dombosco: #313131;
-  --bg-roskoff: #313131;
-  --bg-cereser:radial-gradient(circle, #F5F0E1, #D8C6A5);
-  --text-dombosco: white;
+  --bg-cinza:#313131;
+  --text-cinza-claro:lightgrey;
+  --bg-gradient-mel:radial-gradient(circle, #F5F0E1, #D8C6A5);;
+  --text-white: white;
   --text-chanceler: #38201A;
-  --text-roskoff:;
-  --text-cereser:;
-  --sub-text-dombosco: lightgrey;
-  --sub-text-chanceler: lightgrey;
-  --sub-text-roskoff:;
-  --sub-text-cereser: ;
 }
 
 
@@ -24,31 +17,45 @@
 }
 
 
-.card-chanceler{
-  background: var(--bg-chanceler);
+.card-bg-gradient-mel {
+  background: var(--bg-gradient-mel);
+}
+.card-bg-cinza {
+  background: var(--bg-cinza);
+}
+.text-white {
+  color: var(--text-white);;
+}
+.text-filter-white {
+    color: white;
+    filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) 
+            drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
+}
+.text-cinza-claro {
+  color: var(--text-cinza-claro);
+}
+.text-filter-offwhite {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) 
+            drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
+}
+
+.card-chanceler, .card-cereser, .card-roskoff{
+  background: var(--bg-gradient-mel);
 }
 .card-dombosco {
   background: var(--bg-dombosco);
 }
-.card-roskoff {
-  background: var(--bg-roskoff);
-}
-.card-cereser {
-  background: var(--bg-cereser);
-}
 .text-dombosco {
-  color: var(--text-dombosco);
+  color: var(--text-branco);
 }
 .text-chanceler, .text-cereser {
     color: white;
     filter: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) 
             drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
 }
-.sub-text-dombosco {
-  color: var(--sub-text-dombosco);
-}
-.sub-text-chanceler {
-  color: var(--sub-text-chanceler);
+.sub-text-chanceler, .sub-text-dombosco {
+  color: var(--text-cinza-claro);
 }
 .sub-text-cereser {
    color: rgb(255, 255, 255);
