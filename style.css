@@ -6,10 +6,15 @@
   --bg-chanceler: radial-gradient(circle, #F5F0E1, #D8C6A5);
   --bg-dombosco: #313131;
   --bg-roskoff: #313131;
+  --bg-cereser:radial-gradient(circle, #F5F0E1, #D8C6A5);
   --text-dombosco: white;
   --text-chanceler: #38201A;
+  --text-roskoff:;
+  --text-cereser:;
   --sub-text-dombosco: lightgrey;
   --sub-text-chanceler: lightgrey;
+  --sub-text-roskoff:;
+  --sub-text-cereser:;
 }
 
 
@@ -42,6 +47,10 @@
 .sub-text-chanceler {
   color: var(--sub-text-chanceler);
 }
+.card-cereser {
+  background: var(--bg-cereser);
+}
+
 
 
 
