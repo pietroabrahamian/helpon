@@ -5,6 +5,7 @@
 :root {
   --bg-chanceler: radial-gradient(circle, #F5F0E1, #D8C6A5);
   --bg-dombosco: #313131;
+  --bg-roskoff: #313131;
   --text-dombosco: white;
   --text-chanceler: #38201A;
   --sub-text-dombosco: lightgrey;
@@ -23,6 +24,9 @@
 }
 .card-dombosco {
   background: var(--bg-dombosco);
+}
+.card-roskoff {
+  background: var(--bg-roskoff);
 }
 .text-dombosco {
   color: var(--text-dombosco);
