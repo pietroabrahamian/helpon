@@ -23,6 +23,9 @@
 .card-bg-cinza {
   background: var(--bg-cinza);
 }
+.card-marmore {
+  background-image: url(./img/bg/bg-marmore.png);
+}
 .text-white {
   color: var(--text-white);;
 }
