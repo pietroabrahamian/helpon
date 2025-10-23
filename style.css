@@ -67,7 +67,7 @@
   height: 80%;
   filter: blur(7px);
   position: relative;
-  top: 5vw;
+  top: 6vw;
   animation: anim 3s infinite;
 }
 
@@ -89,5 +89,28 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
 
+  .card:active > .img {
+    height: 80%;
+    filter: blur(7px);
+    position: relative;
+    top: 10vw;
+    animation: anim 3s infinite;
+  }
+  .card:hover > .img {
+    height: 80%;
+    filter: blur(7px);
+    position: relative;
+    top: 16vw;
+    animation: anim 3s infinite;
+  }
+  main {
+    background-color: red;
+  }
+  .textBox {
+    bottom: 12vw;
+  }
+
+}
 
