@@ -54,6 +54,18 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-explosao-vermelha {
+  background-image: url(./img/bg/bg-explosao-vermelha.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-nobre {
+  background-image: url(./img/bg/bg-nobre.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .text-white {
   color: var(--text-white);;
