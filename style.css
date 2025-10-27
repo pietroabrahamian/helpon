@@ -4,8 +4,9 @@
 
 :root {
   --bg-cinza:#313131;
+  --bg-amarelado: #F0EDE6;
+  --bg-gradient-mel:radial-gradient(circle, #F5F0E1, #D8C6A5);
   --text-cinza-claro:lightgrey;
-  --bg-gradient-mel:radial-gradient(circle, #F5F0E1, #D8C6A5);;
   --text-white: white;
   --text-chanceler: #38201A;
 }
@@ -40,6 +41,15 @@
 }
 .bg-agua {
   background-image: url(./img/bg/bg-agua.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-amarelado {
+ background-color: var(--bg-amarelado);
+}
+.bg-chuva-azul {
+  background-image: url(./img/bg/bg-chuva-azul.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
