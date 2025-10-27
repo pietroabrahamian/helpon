@@ -174,3 +174,13 @@
 
 }
 
+@media screen and (min-width: 1536px) {
+    .card:hover > .img {
+    top:3vw;
+
+  }
+}
+
+
+
+
